@@ -1,1 +1,10 @@
+import javax.swing.JFrame;
 
+public class NBC {
+	public static void main(String[] args) throws Exception {
+    	NBClassifier nbc=new NBClassifier();
+    	nbc.setSize(500,400);
+    	nbc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	
+    	nbc.setVisible(true);
+    }
+}
